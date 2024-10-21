@@ -3,3 +3,4 @@ date
 cal 
 echo "hey"
 echo "hello"
+echo "pipe"
