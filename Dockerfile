@@ -1,8 +1,12 @@
+
 # Use CentOS as the base image
 FROM centos:latest
 
-# Update the package repositories and install Apache HTTP server
-RUN yum update -y && yum install -y httpd
+# Disable the local DVD repository and update the package repositories
+RUN sed -i 's|^enabled=1|enabled=0|' /etc/yum.repos.d/CentOS-Media.repo && \
+    yum clean all && \
+    yum -y update && \
+    yum install -y httpd
 
 # Create an index.html file with "Hello World" content
 RUN echo "Hello World" > /var/www/html/index.html
