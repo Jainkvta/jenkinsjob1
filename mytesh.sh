@@ -10,3 +10,4 @@ echo "fhxdfjk"
 echo "FDdf"
 echo "dfghjk"
 cal
+date
