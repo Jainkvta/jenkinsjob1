@@ -15,3 +15,4 @@ echo "Fdf"
 echo " fdsf"
 cal
 date
+echo "fg"
