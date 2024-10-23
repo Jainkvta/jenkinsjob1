@@ -2,3 +2,4 @@
 echo "fdf"
 date
 cal
+date
