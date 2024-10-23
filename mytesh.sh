@@ -1,4 +1,4 @@
-echo "hello world "
+echo "hello wofrld "
 echo "fdf"
 date
 cal
