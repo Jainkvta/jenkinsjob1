@@ -9,3 +9,4 @@ echo "DFD"
 echo "fhxdfjk"
 echo "FDdf"
 echo "dfghjk"
+cal
